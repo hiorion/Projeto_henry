@@ -45,7 +45,8 @@ button:hover {
     background-color: red;
     color:#fff;
     margin-bottom: 8px;
-    padding: 8px;  
+    padding: 8px;
+    display:none;  
 }
 
 .msgScss {
@@ -53,5 +54,6 @@ button:hover {
     color:#fff;
     text-align: center;
     font-size: 30px;  
-    margin-bottom: 15 px;
+    margin-bottom: 15px;
+    display: none;
 }

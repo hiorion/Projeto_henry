@@ -14,7 +14,6 @@ form.addEventListener("submit", function(e){
         campoa.value = " ";
         campob.value = " ";
         
-                
     } else {
         mensagemerro.innerHTML = msgErro;
         mensagemerro.style.display = "block";
