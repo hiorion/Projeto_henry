@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+}
+
+header {
+    background-color: #a6eb93;
+    padding: 16px 0;
+    color: #000;
+    display: flex;
+    border-bottom: 16px solid #5da04e;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 160%;
+}
+
+header button {
+    margin-left: 16px;
+    width: 160px;
+}
+
+body {
+    background-color: #a6eb93;
+}
+
+button {
+    background-color: #5da04e;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    width: 100px;
+    height: 26px;
+}
+
+button:hover {
+    background-color: #397429;
+}
+
+#botao-cancelar {
+    background-color: rgb(211, 74, 74);
+}
+
+#botao-cancelar:hover {
+    background-color: rgb(209, 116, 116);
+}
+
+form {
+    background-color: #6fb35f;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.riscar {
+    text-decoration: line-through;
+}
+
+#lista-tarefas {
+    list-style: none;
+    padding: 14px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 26px;
+    background-color: #5da04e;
+    color: #000;
+    display: none;
+    max-height:560px;
+    overflow-y: auto;
+    border-radius: 12px;
+    font-size: x;
+}
+
+li {
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.base {
+    text-align: center;
+    font-style: italic;
+    color: #000;
+    margin-top: 20px;
+    position: relative;
+}

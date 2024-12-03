@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas Diárias</title>
+    <link rel="icon" href="./imagens/tarefa.png" type="image/x-com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <h1>LISTA DE TAREFAS</h1>
+        <button type="button">ADICIONAR</button>
+    </header>
+    <form>
+        <h2>Nova Tarefa</h2>
+        <input type="text" id="nova-tarefa" required placeholder="Nova Tarefa">
+        <button type="submit">+</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+        <p>Quando concluir a tarefa, clique na mesma para sinalizar.</p>
+        
+    </form>
+    <ul id="lista-tarefas">
+
+    </ul>
+    <footer class="base">
+        &copy; Henry Orion - Desenvolvedor Full Stack Python - 2024
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
