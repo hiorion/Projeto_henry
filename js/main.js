@@ -1,35 +1,37 @@
-$('#telefone').mascara('(00) 00000-0000', {
+// Aplicando máscaras com jQuery Mask
+$('#telefone').mask('(00) 00000-0000', {
     placeholder: '(DDD) 12345-6789'
-})
+});
 
-$('#cpf').mascara('000.000.000-00', {
+$('#cpf').mask('000.000.000-00', {
     placeholder: '123.456.789-00'
-})
+});
 
-$('#cep').mascara('00000-000', {
-    placeholder: '012345-678'
-})
+$('#cep').mask('00000-000', {
+    placeholder: '01234-567'
+});
 
+// Validação com jQuery Validate
 $('form').validate({
     rules: {
         nome: {
-            requerido: true
+            required: true
         },
         email: {
-            requerido: true,
+            required: true,
             email: true
         },
         telefone: {
-            requerido: true
+            required: true
         },
         endereco: {
-            requerido: true
+            required: true
         },
         cep: {
-            requerido: true
+            required: true
         },
         cpf: {
-            requerido: true
+            required: true
         },
     },
     submitHandler: function (form) {
@@ -39,4 +41,4 @@ $('form').validate({
     invalidHandler: function (form, validator) {
         alert("Por favor, preencha os campos para prosseguir com a compra!");
     }
-})
+});
