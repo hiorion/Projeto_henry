@@ -11,36 +11,39 @@
 
 <body>
     <div class="container">
-        <div class="row gy-2 gx-3 justify-content-center">
-            <div class="col-sm-4">
-                <h1 class="text-center">Registre-se</h1>
-                <form>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Nome">
-                        <label for="floatingInput">Nome:</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Sobrenome">
-                        <label for="floatingInput">Sobrenome:</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input id="floatingInputValue" type="email" class="form-control" placeholder="nome@exemplo.com"
-                            value="bláblá@exemplo.com">
-                        <label for="floatingInputValue">Email:</label>
-                    </div>
-                    <label for="mensagem" class="form-label">sua mensagem:</label>
-                    <textarea id="mensagem" class="form-control"></textarea>
-                    <div class="form-check form-switch">
-                        <label for="aceito-termos" class="form-check-label">De total acordo!</label>
-                        <input type="checkbox" class="form-check-input" id="aceito-termos">
-                    </div>
-                    <div class="d-grid gap-2 col-6 mx-auto"><button class="btn btn-primary shadow-3">Registrar</button>
-                    </div>
-
-                </form>
+        <div class="form-container ">
+          <form class="text-center">
+              <h1 class="h5 mb-5 fw-semibold">FORMULARIO DE CADASTRO</h1>
+            <div class="form-floating mb-2">
+              <input type="text" class="form-control border-dark" id="floatingName" placeholder="Nome">
+              <label for="floatingName">Nome</label>
             </div>
+            <div class="form-floating mb-2">
+              <input type="tel" class="form-control border-dark" id="floatingTel" placeholder="Telefone">
+              <label for="floatingTel">Telefone</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input type="email" class="form-control border-dark" id="floatingEmail" placeholder="Email@gmail.com">
+              <label for="floatingEmail">E-mail </label>
+            </div>
+            <div class="form-floating mb-2">
+              <input type="password" class="form-control border-dark" id="floatingPassword" placeholder="Senha">
+              <label for="floatingPassword">Senha</label>
+            </div>
+            <div class="form-check text-start mb-2">
+              <input type="checkbox" class="form-check-input border-dark" id="flexCheckDefault">
+              <label for="flexCheckDefault" class="form-check-label">Eu Concordo com os termos</label>
+            </div>
+            <button class="btn btn-dark w-100 py-2">Cadastrar</button>
+            <p class="mt-3 text-muted">
+              © 2025- Todos Diretos Reservados Por
+              <a href="https://github.com/hiorion" target="_blank" class="link-hover">
+                @Hiorion
+              </a>
+            </p>
+          </form>
         </div>
-    </div>
+      </div>
 </body>
 
 </html>

@@ -1,4 +1,5 @@
-### A entrega deste exercício consiste em:
+### Exercício Módulo 12  - BOOTSTRAP
+## A entrega deste exercício consiste em:
 
 • Adicionar o Bootstrap em uma página HTML utilizando a CDN;
 
