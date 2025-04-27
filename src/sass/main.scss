@@ -1,0 +1,6 @@
+@use "cores";
+@use "config";
+
+body {
+    background-color: cores.$corfundo;
+}
