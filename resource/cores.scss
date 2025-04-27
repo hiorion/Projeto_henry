@@ -1,0 +1,44 @@
+$texto1 : #a69e80;
+$texto2 : #3b1922;
+$bg1 : #d28574;
+$bg2 : #e7a97e;
+$bg3 : #e0ba9b;
+$bg4 : #f09953;
+
+header {
+    background-color: $bg1;
+    
+}
+
+.menu {
+    
+    a {
+        color: $texto2;
+        background-color: $bg2;
+        &:hover { background-color: $bg4;}
+         }
+         
+}
+
+section {
+    background-color: $bg3;
+    
+}
+
+.product-item {
+    color: $texto2;
+    background-color: $bg2;
+
+    a {
+        background-color: $bg1;
+    }
+}
+
+.product-button {
+
+    color: $texto2;
+
+    &:hover {
+        background-color: $bg4;
+    }
+}
